@@ -1,3 +1,4 @@
+[Home](/macdne/) | [Markets](/macdne/markets) | [Checklists](/macdne/checklists) | [Notes](/macdne/notes)
 # MACDNE
 
 This site is my personal operating system for money, markets, and projects.
