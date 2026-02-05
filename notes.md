@@ -1,3 +1,4 @@
+[Home](/macdne/) | [Markets](/macdne/markets) | [Checklists](/macdne/checklists) | [Notes](/macdne/notes)
 # Notes
 
 This is a daily log of observations, decisions, and lessons.
