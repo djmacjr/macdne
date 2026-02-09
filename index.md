@@ -39,5 +39,4 @@ Use the sections below as reference points, not signals.
 
 - **Markets**  
 - **Checklists**  
-- **Notes**  
-- **Projects**
+- **Notes**
