@@ -1,6 +1,6 @@
 [Home](/) | [Markets](/markets) | [Checklists](/checklists) | [Notes](/notes)
 
-# MACDONALD NEW ENGLAND
+# # MacDonald New England
 
 This site serves as a personal record of observation, structure, and decision-making.
 
