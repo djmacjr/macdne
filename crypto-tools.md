@@ -10,6 +10,17 @@ This page exists for one purpose:
 
 No predictions. No hype. No intraday reacting.
 
+Crypto Tools is a curated reference layer — not a dashboard.
+
+The resources listed here are used to observe market conditions, assess context, and confirm broader signals. They are not consulted continuously, and they are not used to time entries or exits.
+
+All links lead outward by design. This page exists to frame *what to look at*, *why it matters*, and *what is intentionally ignored*. Any interpretation or decision derived from these tools is documented elsewhere.
+
+Maintained manually.
+No alerts. No live feeds.
+Observation precedes action.
+
+
 ---
 
 ## Data Sources (Primary)
