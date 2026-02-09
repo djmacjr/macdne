@@ -40,3 +40,9 @@ Use the sections below as reference points, not signals.
 - **Markets**  
 - **Checklists**  
 - **Notes**
+
+---
+
+Maintained manually.  
+No alerts. No hype.  
+Just notes, frameworks, and decisions.
