@@ -40,3 +40,9 @@ Next step: Weekly execution + tracking
 - If a project isn’t moving weekly, it’s parked.
 - One primary project gets the best hours.
 - Shipping beats polishing.
+
+---
+
+Maintained manually.  
+No alerts. No hype.  
+Just notes, frameworks, and decisions.
