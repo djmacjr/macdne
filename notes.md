@@ -38,3 +38,9 @@ Purpose:
 ## Archive
 
 Add new entries at the top. Keep older entries below.
+
+---
+
+Maintained manually.  
+No alerts. No hype.  
+Just notes, frameworks, and decisions.
