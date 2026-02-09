@@ -25,13 +25,6 @@ Its only purpose is to answer one question:
 
 ---
 
-## Current Status
-
-**Status:** NO-GO  
-**Last Updated:** _(enter date manually)_
-
----
-
 ## Panic Reversal Checklist
 
 ### Market Structure
