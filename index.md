@@ -2,44 +2,39 @@
 
 # MACDONALD NEW ENGLAND
 
-This site is my personal operating system for money, markets, and projects.
+This site serves as a personal record of observation, structure, and decision-making.
 
-There is no hype here.  
-No predictions.  
-No calls to action.
+It is maintained deliberately and updated manually.
 
-Everything on this site is built around one principle:
+The material here reflects a long-term interest in markets, systems, and creative work — approached with restraint, skepticism, and an emphasis on process over prediction.
 
-**Act only when conditions justify action.**
+There are no alerts, recommendations, or time-sensitive instructions.
 
-The goal is clarity, discipline, and repeatable decision-making — especially during periods of uncertainty and market stress.
-
-Use the sections below as reference points, not signals.
-
-— Don
+Only frameworks, notes, and evolving lines of thought.
 
 ---
 
-## What This Site Is
+## Scope
 
-- A daily market dashboard  
-- A set of decision checklists  
-- A log of observations and lessons  
-- A home base for long-term projects  
+The content on this site generally falls into four areas:
 
-## What This Site Is Not
+- Market observation during periods of stress  
+- Decision frameworks designed to reduce noise  
+- Written notes intended for later review  
+- Select long-term projects in development  
 
-- Trading advice  
-- Financial recommendations  
-- A prediction engine  
+Not all material is intended for broad distribution.
 
 ---
 
-## Sections
+## Orientation
 
-- **Markets**  
-- **Checklists**  
-- **Notes**
+This site is not designed to persuade or prompt action.
+
+It exists to document how decisions are formed —  
+particularly when conditions are uncertain and clarity is scarce.
+
+Readers are encouraged to interpret the material slowly and independently.
 
 ---
 
