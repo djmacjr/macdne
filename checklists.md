@@ -62,3 +62,9 @@ Choose one approach and stick to it for 30 days.
 - Fixed amount you can part with
 - No leverage
 - Accept volatility without reacting
+
+---
+
+Maintained manually.  
+No alerts. No hype.  
+Just notes, frameworks, and decisions.
