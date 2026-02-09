@@ -15,6 +15,14 @@ Only frameworks, notes, and evolving lines of thought.
 
 ---
 
+## Start Here
+
+Begin with **Markets** to see the current operating status and score.  
+Use **Checklists** to understand the rules behind that status.  
+Use **Notes** for the daily log and longer-form observations.
+
+---
+
 ## Scope
 
 The content on this site generally falls into four areas:
