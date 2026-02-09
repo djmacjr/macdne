@@ -1,6 +1,6 @@
 [Home](/) | [Markets](/markets) | [Checklists](/checklists) | [Notes](/notes)
 
-# MACDNE
+# MACDONALD NEW ENGLAND
 
 This site is my personal operating system for money, markets, and projects.
 
