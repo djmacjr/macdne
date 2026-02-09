@@ -1,4 +1,5 @@
-[Home](/macdne/) | [Markets](/macdne/markets) | [Checklists](/macdne/checklists) | [Notes](/macdne/notes)
+[Home](/) | [Markets](/markets) | [Checklists](/checklists) | [Notes](/notes)
+
 # Checklists
 
 This page is a collection of decision frameworks used on macdne.com.
