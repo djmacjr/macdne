@@ -1,5 +1,7 @@
 [Home](/) | [Markets](/markets) | [Checklists](/checklists) | [Notes](/notes)
 
+**This page is updated once daily. Intraday decisions are ignored.**
+
 # Crypto Tools
 
 This page exists for one purpose:
@@ -71,6 +73,59 @@ No predictions. No hype. No intraday reacting.
 **0–5:** Panic ongoing → NO-GO
 **6–7:** Transition zone → WATCH
 **8–10:** Conditions improving → GO (controlled)
+
+
+FINAL DECISION GATE (Non-Negotiable)
+
+Action is permitted ONLY if all conditions below are true:
+
+ Score is 8 or higher
+
+ BTC has held the same low for 48+ hours
+
+ ETH/BTC is flat or improving (no breakdown)
+
+ Liquidations are materially lower than panic peak
+
+ No new systemic headline in the last 24 hours
+
+Decision:
+
+☐ GO — Begin controlled entry
+
+☐ NO-GO — Stand down
+
+If any box is unchecked → NO-GO.
+
+Approved Assets (Predefined — No Substitutions)
+
+Only assets on this list qualify for GO entries.
+
+Core
+
+BTC
+
+ETH
+
+Secondary (Choose ONE maximum)
+
+SOL
+
+LINK
+
+AVAX
+
+Rules
+
+No new listings
+
+No microcaps
+
+No narratives
+
+No changing the list mid-cycle
+
+If an asset is not listed above → it does not exist for this system.
 
 ---
 
