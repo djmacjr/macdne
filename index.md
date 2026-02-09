@@ -5,6 +5,7 @@
 
 This site serves as a personal record of observation, structure, and decision-making.
 
+
 It is maintained deliberately and updated manually.
 
 The material here reflects a long-term interest in markets, systems, and creative work — approached with restraint, skepticism, and an emphasis on process over prediction.
