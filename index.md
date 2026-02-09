@@ -1,6 +1,7 @@
 [Home](/) | [Markets](/markets) | [Checklists](/checklists) | [Notes](/notes)
 
-# # MacDonald New England
+## MACDNE
+#### An independent record of systems, markets, and work in progress.
 
 This site serves as a personal record of observation, structure, and decision-making.
 
