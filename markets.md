@@ -70,3 +70,9 @@ Its only purpose is to answer one question:
 - Update once per day  
 - No intraday decisions  
 - If not clearly a GO, do nothing
+
+---
+
+Maintained manually.  
+No alerts. No hype.  
+Just notes, frameworks, and decisions.
