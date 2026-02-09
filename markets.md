@@ -2,6 +2,18 @@
 
 # Markets
 
+---
+
+## Current Status (One Glance)
+
+**Status:** NO-GO  
+**Score:** 0 / 10  
+**Last updated:** YYYY-MM-DD  
+
+**Bias:** Preserve capital. Observe only.
+
+---
+
 This page tracks market conditions during periods of stress and panic.
 
 It does not predict bottoms.  
