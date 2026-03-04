@@ -1,96 +1,312 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>MacDNE | MacDonald New England</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="MacDNE — MacDonald New England. Intellectual property, creative projects, and brand initiatives.">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MacDNE | New England Lifer</title>
+    <meta
+      name="description"
+      content="A personal homepage rooted in New England life: family, the outdoors, and entrepreneurship."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700;900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Oswald:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
     <style>
-        body {
-            margin: 0;
-            font-family: Georgia, "Times New Roman", serif;
-            background-color: #f4f1ea;
-            color: #1a1a1a;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            text-align: center;
+      :root {
+        --parchment: #f2ebd9;
+        --paper: #fcf8ef;
+        --ink: #1a1a14;
+        --ink-soft: #3e3d34;
+        --line: #d7ccb8;
+        --pine: #253d29;
+        --crimson: #8b1a1a;
+        --gold: #b5882a;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: "Libre Baskerville", Georgia, serif;
+        background:
+          radial-gradient(circle at 80% 12%, rgba(37, 61, 41, 0.09), transparent 34%),
+          radial-gradient(circle at 10% 90%, rgba(139, 26, 26, 0.08), transparent 36%),
+          var(--parchment);
+        color: var(--ink);
+      }
+
+      body::before {
+        content: "";
+        position: fixed;
+        inset: 0;
+        pointer-events: none;
+        opacity: 0.25;
+        background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 240 240' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+      }
+
+      .wrap {
+        max-width: 1020px;
+        margin: 0 auto;
+        padding: 20px;
+        position: relative;
+        z-index: 1;
+      }
+
+      .topbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+        background: rgba(37, 61, 41, 0.95);
+        border: 1px solid rgba(181, 136, 42, 0.35);
+        border-radius: 12px;
+        padding: 10px 14px;
+        color: #f2ebd9;
+        margin-bottom: 12px;
+      }
+
+      .brand {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        text-decoration: none;
+        color: inherit;
+      }
+
+      .mark {
+        width: 34px;
+        height: 34px;
+        border-radius: 50%;
+        border: 1px solid rgba(181, 136, 42, 0.75);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Oswald", sans-serif;
+        font-size: 12px;
+        letter-spacing: 0.08em;
+        color: var(--gold);
+      }
+
+      .brand-text {
+        font-family: "Playfair Display", Georgia, serif;
+        font-weight: 700;
+        font-size: 1.1rem;
+      }
+
+      .brand-text span {
+        color: var(--gold);
+      }
+
+      .tagline {
+        font-family: "Oswald", sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 0.14em;
+        font-size: 0.68rem;
+        color: rgba(242, 235, 217, 0.8);
+      }
+
+      .hero {
+        background: linear-gradient(
+            170deg,
+            rgba(21, 33, 23, 0.9) 0%,
+            rgba(37, 61, 41, 0.75) 55%,
+            rgba(139, 26, 26, 0.18) 100%
+          ),
+          radial-gradient(circle at 70% 20%, rgba(181, 136, 42, 0.18), transparent 35%);
+        border: 1px solid var(--line);
+        border-radius: 18px;
+        padding: 34px;
+        color: #f2ebd9;
+      }
+
+      .kicker {
+        margin: 0;
+        color: var(--gold);
+        letter-spacing: 0.22em;
+        text-transform: uppercase;
+        font-size: 11px;
+        font-family: "Oswald", sans-serif;
+      }
+
+      h1 {
+        font-family: "Playfair Display", Georgia, serif;
+        font-size: clamp(2.2rem, 7vw, 4.4rem);
+        line-height: 1.03;
+        margin: 10px 0 0;
+      }
+
+      .lead {
+        font-family: "Playfair Display", Georgia, serif;
+        font-size: clamp(1rem, 2.2vw, 1.4rem);
+        color: rgba(242, 235, 217, 0.86);
+        font-style: italic;
+        margin: 12px 0 0;
+      }
+
+      .chip-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 18px;
+      }
+
+      .chip {
+        display: inline-block;
+        border: 1px solid rgba(242, 235, 217, 0.3);
+        border-radius: 999px;
+        padding: 5px 10px;
+        font-size: 11px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        font-family: "Oswald", sans-serif;
+        color: rgba(242, 235, 217, 0.86);
+        background: rgba(10, 10, 10, 0.12);
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(12, minmax(0, 1fr));
+        gap: 14px;
+        margin-top: 14px;
+      }
+
+      .card {
+        grid-column: span 4;
+        background: var(--paper);
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        padding: 20px;
+      }
+
+      .card h2 {
+        margin: 0;
+        font-size: 1.25rem;
+        font-family: "Playfair Display", Georgia, serif;
+        color: var(--pine);
+      }
+
+      .card p {
+        margin: 10px 0 0;
+        color: #333328;
+      }
+
+      .quote {
+        margin-top: 14px;
+        padding: 24px;
+        border: 1px solid var(--line);
+        border-left: 4px solid var(--crimson);
+        border-radius: 14px;
+        background: #fffaf2;
+      }
+
+      .quote p {
+        margin: 0;
+        font-size: 1.2rem;
+        font-style: italic;
+        font-family: "Playfair Display", Georgia, serif;
+        color: var(--ink-soft);
+      }
+
+      .footer {
+        margin: 16px 0 8px;
+        text-align: center;
+        color: var(--ink-soft);
+        font-size: 14px;
+      }
+
+      .accent {
+        color: var(--gold);
+      }
+
+      @media (max-width: 820px) {
+        .topbar {
+          flex-direction: column;
+          align-items: flex-start;
         }
 
-        .container {
-            max-width: 700px;
-            padding: 40px;
+        .hero {
+          padding: 24px;
         }
 
-        h1 {
-            font-size: 42px;
-            letter-spacing: 2px;
-            margin-bottom: 10px;
+        .card {
+          grid-column: span 12;
         }
-
-        h2 {
-            font-size: 18px;
-            font-weight: normal;
-            letter-spacing: 1px;
-            margin-bottom: 30px;
-            color: #555;
-        }
-
-        p {
-            font-size: 16px;
-            line-height: 1.6;
-            margin-bottom: 30px;
-        }
-
-        .button {
-            display: inline-block;
-            padding: 12px 24px;
-            border: 2px solid #1a1a1a;
-            text-decoration: none;
-            color: #1a1a1a;
-            font-weight: bold;
-            letter-spacing: 1px;
-            transition: all 0.2s ease-in-out;
-        }
-
-        .button:hover {
-            background-color: #1a1a1a;
-            color: #f4f1ea;
-        }
-
-        footer {
-            margin-top: 40px;
-            font-size: 14px;
-            color: #777;
-        }
-
-        a {
-            color: inherit;
-        }
+      }
     </style>
-</head>
-<body>
-    <div class="container">
-        <h1>MACDNE</h1>
-        <h2>MacDonald New England</h2>
+  </head>
+  <body>
+    <main class="wrap">
+      <header class="topbar" aria-label="Site header">
+        <a class="brand" href="/">
+          <span class="mark" aria-hidden="true">MD</span>
+          <span class="brand-text">Mac<span>DNE</span></span>
+        </a>
+        <span class="tagline">Classic New England Personal Site</span>
+      </header>
 
-        <p>
-            A private holding space for intellectual property, brand development,
-            and creative initiatives rooted in New England values —
-            independence, craftsmanship, and clarity.
+      <section class="hero">
+        <p class="kicker">MacDNE</p>
+        <h1>
+          New England lifer.
+          <span class="accent">Charlestown to Londonderry to Lincoln.</span><br />
+          New Hampshire heart. Boston home.
+        </h1>
+        <p class="lead">
+          This is my personal home base: the outdoors, the entrepreneur track, and
+          the family life that keeps everything in focus.
         </p>
+        <div class="chip-row">
+          <span class="chip">White Mountains Miles</span>
+          <span class="chip">Builder: Angry Abe</span>
+          <span class="chip">Family First</span>
+          <span class="chip">Classic New England</span>
+        </div>
+      </section>
 
-        <a href="https://angryabe.com" class="button">Visit Angry Abe</a>
+      <section class="grid" aria-label="Core sections">
+        <article class="card">
+          <h2>The Outdoors</h2>
+          <p>
+            Avid hiker. Four seasons, early starts, and trail time as the reset
+            button. The best decisions usually happen outside.
+          </p>
+        </article>
+        <article class="card">
+          <h2>The Entrepreneur</h2>
+          <p>
+            Building with discipline and a point of view. Current project:
+            <strong>Angry Abe</strong> and related ideas.
+          </p>
+        </article>
+        <article class="card">
+          <h2>Family</h2>
+          <p>
+            Work matters, but family anchors the mission. Everything here is built
+            to support that priority.
+          </p>
+        </article>
+      </section>
 
-        <footer>
-            <p>
-                Contact: <a href="mailto:info@macdne.com">info@macdne.com</a>
-            </p>
-            <p>
-                © 2026 MacDNE
-            </p>
-        </footer>
-    </div>
-</body>
+      <section class="quote" aria-label="Personal note">
+        <p>
+          No hype, no noise. Just New England grit, steady work, and a life built
+          close to home.
+        </p>
+      </section>
+
+      <footer class="footer">
+        <p>© 2026 MacDNE</p>
+      </footer>
+    </main>
+  </body>
 </html>
