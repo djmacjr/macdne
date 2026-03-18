@@ -103,8 +103,12 @@
         font-size: 1.1rem;
       }
 
-      .brand-text span {
+      .brand-text .brand-accent {
         color: var(--gold);
+      }
+
+      .brand-text .brand-light {
+        color: #f2ebd9;
       }
 
       .tagline {
@@ -173,6 +177,11 @@
         background: rgba(10, 10, 10, 0.12);
       }
 
+      .chip a {
+        color: inherit;
+        text-decoration: none;
+      }
+
       .grid {
         display: grid;
         grid-template-columns: repeat(12, minmax(0, 1fr));
@@ -200,6 +209,17 @@
         color: #333328;
       }
 
+      .text-link {
+        color: var(--pine);
+        text-decoration-color: rgba(37, 61, 41, 0.35);
+        text-underline-offset: 0.18em;
+      }
+
+      .text-link:hover {
+        color: var(--crimson);
+        text-decoration-color: rgba(139, 26, 26, 0.45);
+      }
+
       .quote {
         margin-top: 14px;
         padding: 24px;
@@ -222,6 +242,10 @@
         text-align: center;
         color: var(--ink-soft);
         font-size: 14px;
+      }
+
+      .contact {
+        margin-top: 14px;
       }
 
       .accent {
@@ -249,7 +273,7 @@
       <header class="topbar" aria-label="Site header">
         <a class="brand" href="/">
           <span class="mark" aria-hidden="true">MD</span>
-          <span class="brand-text">Mac<span>DNE</span></span>
+          <span class="brand-text">Mac<span class="brand-accent">D</span><span class="brand-light">NE</span></span>
         </a>
         <span class="tagline">Classic New England Personal Site</span>
       </header>
@@ -267,7 +291,7 @@
         </p>
         <div class="chip-row">
           <span class="chip">White Mountains Miles</span>
-          <span class="chip">Builder: Angry Abe</span>
+          <span class="chip">Builder: <a href="https://angryabe.com">Angry Abe</a></span>
           <span class="chip">Family First</span>
           <span class="chip">Classic New England</span>
         </div>
@@ -285,7 +309,8 @@
           <h2>The Entrepreneur</h2>
           <p>
             Building with discipline and a point of view. Current project:
-            <strong>Angry Abe</strong> and related ideas.
+            <strong><a class="text-link" href="https://angryabe.com">Angry Abe</a></strong>
+            and related ideas.
           </p>
         </article>
         <article class="card">
@@ -305,6 +330,9 @@
       </section>
 
       <footer class="footer">
+        <p class="contact">
+          Contact: <a class="text-link" href="mailto:info@macdne.com">info@macdne.com</a>
+        </p>
         <p>© 2026 MacDNE</p>
       </footer>
     </main>
